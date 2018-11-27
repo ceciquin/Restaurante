@@ -1,0 +1,88 @@
+﻿header-container {
+    display: block;
+    width: 970px;
+}
+
+.soloMenu {
+    display: inline-block;
+    width: 50%;
+    float: none;
+    vertical-align: top;
+    text-align: left;
+    margin: 0 -30px;
+}
+
+.header-social {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+body {
+    background-image: URL("../Images/foto-gigante.jpg");
+}
+
+.container-menus {
+    display: inline-block;
+    text-align: center
+}
+
+
+.Celiaco {
+    background-color: white;
+    display: inline-block;
+    padding: 70px;
+    text-align: left;
+    margin-bottom: 30px;
+    position: relative;
+    min-height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center
+}
+
+.Vegano {
+    background-color: white;
+    display: inline-block;
+    padding: 70px;
+    text-align: left;
+    margin-bottom: 30px;
+    position: relative;
+    min-height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center
+}
+
+.Clasico {
+    background-color: white;
+    display: inline-block;
+    padding: 70px;
+    text-align: left;
+    margin-bottom: 30px;
+    position: relative;
+    min-height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center
+}
+
+.Especial {
+    background-color: white;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 30px;
+    position: relative;
+    min-height: 1px;
+    padding: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center
+}
+
+
+.heading {
+    color: red;
+    text-decoration: underline;
+}

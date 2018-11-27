@@ -1,0 +1,124 @@
+﻿@*@{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }*@
+
+@{
+    ViewBag.Title = "Ingreso";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seleccion de Menu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="CSS/styleMenu.CSS"> -->
+    <link href="~/Content/styleMenu.css" rel="stylesheet" />
+</head>
+<body>
+
+
+
+    <div class="header-container container-fluid ">
+        <!-- Esto podria sacarse si se usan controladores en MVC-->
+        <div class="soloMenu float text-left">
+            <h1 style="color:white">
+                Menu<h1>
+
+                    <!--
+                        <div class="header-social list-group ">
+
+                            <ul>
+
+                      <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+
+                      <li><a href="#"><i class="fa fa-github"></i></a></li>
+
+                            </ul>
+                        </div>
+                    -->
+        </div> <!-- fin contenedor de Menu-->
+    </div>
+
+
+    <div class=" container-menus container-fluid center-block col-lg-12 pull-right " style="padding-top:60px; padding-bottom:60px; width:100% !important">
+
+        <form id="menu">
+
+            <div>
+                <div class="Celiaco form-group " style="width:35%">
+                    <input type="checkbox" class="form-check-input checkbox-inline" id="Menu Celiaco" value="Menu Celiaco"><h2 class="heading">
+                        Opciones sin TACC<h2>
+
+                            <ul>
+                                <li>Fideos de arroz con sala fileto</li>
+                                <li>Quesadilla cuatro quesos</li>
+                                <li>paella de mariscos</li>
+                            </ul>
+
+                </div>
+
+                <div class="Vegano form-group" style="width:35%">
+                    <input type="checkbox" class="form-check-input checkbox-inline" id=" Menu Vegano" value="Menu Vegano"><h2 class="heading">
+                        Opciones veganas<h2>
+
+                            <ul>
+                                <li>Seitan con pure de papa</li>
+                                <li>platon saludable</li>
+                                <li>tofu a la mostaza con pure de batata</li>
+                            </ul>
+
+
+
+                </div>
+
+                <div class="Clasico form-group" style="width:35%">
+                    <input type="checkbox" class="form-check-input checkbox-inline" id="Menu Clasico" value="Menu Clasico">
+
+                    <h2 class="heading">
+                        Opciones Clasicas<h2>
+
+                            <ul>
+                                <li>Tabla de pizzetas</li>
+                                <li>Pastas</li>
+                                <li>Carre de cerdo con pure</li>
+                            </ul>
+
+
+                </div>
+
+                <div class="Especial form-group" style="width:35%">
+                    <input type="checkbox" class="form-check-input checkbox-inline" id="Menu Especial" value="Menu Especial"><h2 class="heading">
+                        Comida gourmet<h2>
+
+                            <ul>
+                                <li>Tabla de sushi</li>
+                                <li>Pato a la Naranja</li>
+                                <li>Camarones al ajillo</label></li>
+                            </ul>
+
+
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-inline btn-lg" onclick="chequearSeleccion()">Finalizar seleccion</button>
+
+        </form>
+
+    </div>
+
+    <!-- comienzo de los scripts-->
+
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="JS/validacionMenu.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
